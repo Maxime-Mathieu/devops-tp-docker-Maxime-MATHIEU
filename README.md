@@ -31,7 +31,7 @@ Copier
 
 # TP DevSecOps avec Docker
 
-[![Build and Scan](https://github.com/[username]/devops-tp-docker-[nom]/actions/workflows/docker-deploy.yml/badge.svg)](https://github.com/[username]/devops-tp-docker-[nom]/actions/workflows/docker-deploy.yml)
+[![Build and Scan](https://github.com/Maxime-Mathieu/devops-tp-docker-Maxime-Mathieu/actions/workflows/docker-deploy.yml/badge.svg)](https://github.com/Maxime-Mathieu/devops-tp-docker-[nom]/actions/workflows/docker-deploy.yml)
 [![CodeQL](https://github.com/[username]/devops-tp-docker-[nom]/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/[username]/devops-tp-docker-[nom]/actions/workflows/codeql-analysis.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen)](https://dependabot.com/)
 [![Secret Scanning](https://img.shields.io/badge/Secret_Scanning-enabled-brightgreen)](https://docs.github.com/en/code-security/secret-scanning)
@@ -70,6 +70,7 @@ Code → SAST (CodeQL) → Hadolint → Build → Trivy → Security Gates → G
 ```bash
 docker pull ghcr.io/[username]/devops-tp-docker-[nom]:main
 docker run -p 8080:8080 ghcr.io/[username]/devops-tp-docker-[nom]:main
+```
 Accéder à : http://localhost:8080
 
 Scan de Sécurité Local
