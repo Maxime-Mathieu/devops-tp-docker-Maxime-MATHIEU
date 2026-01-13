@@ -22,36 +22,6 @@ Ce projet met en œuvre un **pipeline CI/CD sécurisé** pour Docker, intégrant
 
 ---
 
-## 🔐 Architecture de Sécurité
-
-Voici un exemple de README.md structuré, clair et professionnel pour ton TP DevSecOps avec Docker, incluant les badges, les instructions et les résultats attendus :
-
-markdown
-Copier
-
-# TP DevSecOps avec Docker
-
-[![Build and Scan](https://github.com/Maxime-Mathieu/devops-tp-docker-Maxime-Mathieu/actions/workflows/docker-deploy.yml/badge.svg)](https://github.com/Maxime-Mathieu/devops-tp-docker-[nom]/actions/workflows/docker-deploy.yml)
-[![CodeQL](https://github.com/[username]/devops-tp-docker-[nom]/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/[username]/devops-tp-docker-[nom]/actions/workflows/codeql-analysis.yml)
-[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen)](https://dependabot.com/)
-[![Secret Scanning](https://img.shields.io/badge/Secret_Scanning-enabled-brightgreen)](https://docs.github.com/en/code-security/secret-scanning)
-[![SBOM](https://img.shields.io/badge/SBOM-generated-blue)](https://github.com/[username]/devops-tp-docker-[nom]/security/dependabot)
-
----
-
-## 📌 Pipeline DevSecOps
-
-Ce projet met en œuvre un **pipeline CI/CD sécurisé** pour Docker, intégrant les meilleures pratiques DevSecOps :
-
-- **Analyse statique du code** (CodeQL)
-- **Lint du Dockerfile** (Hadolint)
-- **Scan des images Docker** (Trivy)
-- **Scan des dépendances** (Dependabot)
-- **Détection de secrets** (GitHub Secret Scanning)
-- **Portes de sécurité** (blocage sur vulnérabilités critiques)
-- **Génération de SBOM** (Software Bill of Materials)
-
----
 
 ## 🔐 Architecture de Sécurité
 
